@@ -1,10 +1,10 @@
 ## Process to Build a Python Microservice with Continues Delivery
 
 **Steps to follow**
-1. Create a virtual environmnt 
+1. Setup virtual environmnt 
     - In CLI virtualenv ~/.venv
     - Insert source ~/.venv/bin/activate in ~/.bashrc
-2. Describe the structure of the project, creating the appropriate empty files
+2. Scaffolding the structure of the project, creating the appropriate empty files
     - Makefile
     - Dockerfile
     - requiremnts.txt
