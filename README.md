@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/thioaana/BuildMicroserviceWithContinDelivery/actions/workflows/devops.yml/badge.svg)](https://github.com/thioaana/BuildMicroserviceWithContinDelivery/actions/workflows/devops.yml)
+
 ## Process to Build a Python Microservice with Continues Delivery
 
 **Steps to follow**
