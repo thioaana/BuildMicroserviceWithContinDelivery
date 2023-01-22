@@ -27,7 +27,7 @@ async def wiki(name: str):
     return {"result": result}
 
 @app.get("/phrase/{value}")
-async def wiki(value: str):
+async def phrase(value: str):
     """Retreive Wikipedia Page and return phrases"""
 
     result = wikiphrases(value)
