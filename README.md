@@ -1,5 +1,5 @@
 ## Process to Build a Python Microservice with Continues Delivery
-1. 
+
 **Steps to follow**
 1. Create a virtual environmnt 
     - In CLI virtualenv ~/.venv
@@ -11,4 +11,9 @@
     - main.py 
     - Directory with libraries and inside __init__.py, logic.py
     - test.py
-
+3. Fill install recipe in Makefile
+4. Fill requirements.txt
+    - write the packages
+    - run make install
+    - run pip freeze to find the version of each package
+    - complete requirements.txt with versions
