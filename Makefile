@@ -1,8 +1,8 @@
 install:
 		# Install depedencies
-		pip install pip --upgrade pip &&\
-		pip install -r requirements.txt 
-		# python -m textblob.download_corpora 
+		pip install pip --upgrade pip \
+		&& pip install -r requirements.txt \
+		&& python -m textblob.download_corpora 
 
 lint:
 		pylint --disable=R,C *.py mylib/*.py
