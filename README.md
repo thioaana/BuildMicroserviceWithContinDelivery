@@ -12,7 +12,7 @@
     - requiremnts.txt
     - main.py 
     - Directory with libraries and inside __init__.py, logic.py
-    - test.py
+    - test_logic.py
 3. Fill only Install recipe in Makefile. Let the rest with  comments
 4. Fill requirements.txt
     - Insert the dependencies-packages
