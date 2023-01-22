@@ -41,3 +41,9 @@
 9. Create the web microservice api using Fastapi based on logic.py
     - Two simple functions using wiki and search_wiki
     - One more function using textblobnlp for nlp. Before executing we should download corpora with python -m textblob.download_corpora 
+10.Build docker
+    - Fill the build:recipe in Makefile with "docker build -t deploy-fastapi ."
+    - Fill Dockerfile
+    - Run make build
+    - Execute "docker image ls" and copy the image number
+    - Fill the run:recipe in Makefile with "docker run -p 127.0.0.1:8080:8080 2cfc26d51635". The last code is that copied before.
