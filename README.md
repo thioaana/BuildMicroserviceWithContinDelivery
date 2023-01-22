@@ -25,6 +25,13 @@
     - Actions -> click 3dots (upper right) -> Create Budge -> Copy the code
     - Paste it on the top of Readme.
 6. Formatting code with Python Black
-    - Fill format in requirements.txt
+    - Fill format in Makefile eg black *.py
     - Write sample of code in py files.
     - Run make format
+    - Fill yml
+    - Push and Build to be verified
+7. Lint 
+    - Fill format in Makefile eg pylint
+    - Run make format
+    - Fill yml
+    - Push and Build to be verified
