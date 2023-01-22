@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello Wikipedia API - Call /search or /wiki"}
+    return {"message": "Hello Wikipedia API - Call /search, /wiki or /phrase"}
 
 
 @app.get("/search/{value}")
