@@ -11,9 +11,18 @@
     - main.py 
     - Directory with libraries and inside __init__.py, logic.py
     - test.py
-3. Fill install recipe in Makefile
+3. Fill only Install recipe in Makefile. Let the rest with  comments
 4. Fill requirements.txt
-    - write the packages
-    - run make install
-    - run pip freeze to find the version of each package
-    - complete requirements.txt with versions
+    - Insert the dependencies-packages
+    - Run make install
+    - Run pip freeze to find the version of each package
+    - Complete requirements.txt with versions
+5. Setup Github Actions
+    - Actions -> Python application ... -> Create yml, name it and commit commenting "Start Continuous Integration"
+    - Actions -> click Start Cont.... Few sec to build.
+    - Actions -> click 3dots (upper right) -> Create Budge -> Copy the code
+    - Paste it on the top of Readme.
+6. Formatting code with Python Black
+    - Fill format in requirements.txt
+    - Write sample of code in py files.
+    - Run make format
