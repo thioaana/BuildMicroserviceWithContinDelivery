@@ -19,12 +19,14 @@ async def search(value: str):
     result = search_wiki(value)
     return {"result": result}
 
+
 @app.get("/wiki/{name}")
 async def wiki(name: str):
     """Retreive Wikipedia Page"""
 
     result = wikiLogic(name)
     return {"result": result}
+
 
 @app.get("/phrase/{value}")
 async def phrase(value: str):
