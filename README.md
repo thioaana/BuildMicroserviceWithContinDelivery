@@ -35,3 +35,6 @@
     - Run make format
     - Fill yml
     - Push and Build to be verified
+8. Build a cli tool using Python fire utility to test from prompt
+    - Create a python fily eg cli_fire.py
+    - Execute it from cl with the relevant parameters.
