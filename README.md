@@ -38,3 +38,6 @@
 8. Build a cli tool using Python fire utility to test from prompt
     - Create a python fily eg cli_fire.py
     - Execute it from cl with the relevant parameters.
+9. Create the web microservice api using Fastapi based on logic.py
+    - Two simple functions using wiki and search_wiki
+    - One more function using textblobnlp for nlp. Before executing we should download corpora with python -m textblob.download_corpora 
